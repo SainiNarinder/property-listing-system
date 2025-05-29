@@ -1,29 +1,39 @@
-Property Listing Backend System
+# **Property Listing Backend System**
+
 A backend system for managing property listings with full support for user authentication, CRUD operations, advanced search, favorites, caching, and recommendations.
 
- Tech Stack
+## **Tech Stack**
+
 Node.js with TypeScript
-
 MongoDB (via Mongoose)
-
 Redis (for caching)
 
-Express.js
-
-
-Folder Structure
+## **Folder Structure**
 
 property-listing-backend/
-├── data/                
+
+├── data/       
+
 ├── src/
-│   ├── config/         
+
+│   ├── config/  
+
 │   ├── controllers
+
 │   ├── middleware/ 
-│   ├── models/     
-│   ├── routes/           
-│   ├── utils/       
+
+│   ├── models/
+
+│   ├── routes/ 
+
+│   ├── utils/  
+
 │   └── index.ts
+
 ├── .env
+
 ├── package.json
+
 ├── tsconfig.json
+
 └── README.md
